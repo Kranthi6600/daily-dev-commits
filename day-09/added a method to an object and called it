@@ -1,0 +1,10 @@
+const car = {
+  make: 'Tesla',
+  model: 'Model S',
+  year: 2023,
+  fullDetails: function() {
+    console.log(`This car is a ${this.year} ${this.make} ${this.model}.`);
+  }
+};
+
+car.fullDetails();
